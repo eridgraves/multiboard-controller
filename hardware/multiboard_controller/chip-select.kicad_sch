@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "79dbf444-2002-4e06-a9c3-bbcec95837e9")
 	(paper "A4")
 	(title_block
@@ -90,31 +90,7 @@
 			(symbol "OS102011MS2QN1_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 17.78 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 11.43 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 11.43 -5.08)
+						(xy 7.62 2.54) (xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -138,7 +114,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 7.62 -12.7)
+						(xy 7.62 -5.08) (xy 11.43 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -150,7 +126,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -9.525) (xy 10.16 -10.795)
+						(xy 7.62 -10.16) (xy 11.43 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -162,7 +138,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -4.445) (xy 10.16 -5.715)
+						(xy 7.62 -12.7) (xy 17.78 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -186,7 +162,19 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -12.065) (xy 13.335 -12.065)
+						(xy 10.16 0.635) (xy 10.16 -0.635) (xy 11.43 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -4.445) (xy 10.16 -5.715)
 					)
 					(stroke
 						(width 0.127)
@@ -198,127 +186,19 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -10.16) (xy 10.16 -10.795)
+						(xy 10.16 -4.445) (xy 10.16 -5.715) (xy 11.43 -5.08)
 					)
 					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 11.43 -10.16) (xy 10.16 -9.525)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -5.08) (xy 10.16 -5.715)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -5.08) (xy 10.16 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -3.175) (xy 11.43 -12.065)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 10.16 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 10.16 0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.335 -12.065) (xy 13.335 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.335 -3.175) (xy 11.43 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -12.7) (xy 17.78 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 2.54) (xy 7.62 2.54)
+						(xy 10.16 -9.525) (xy 10.16 -10.795)
 					)
 					(stroke
 						(width 0.127)
@@ -342,26 +222,38 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -4.445) (xy 10.16 -5.715) (xy 11.43 -5.08)
+						(xy 11.43 0) (xy 10.16 0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 10.16 0.635) (xy 10.16 -0.635) (xy 11.43 0)
+						(xy 11.43 0) (xy 10.16 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -3.175) (xy 11.43 -12.065)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -374,6 +266,114 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 10.16 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 10.16 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -10.16) (xy 10.16 -9.525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -10.16) (xy 10.16 -10.795)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -12.065) (xy 13.335 -12.065)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -3.175) (xy 11.43 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -12.065) (xy 13.335 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -12.7) (xy 17.78 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin unspecified line
@@ -431,6 +431,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ERJ2RKF1002X:ERJ2RKF1002X"
 			(pin_names
@@ -671,12 +672,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -748,7 +754,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -760,7 +766,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -791,12 +797,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -887,7 +898,38 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "ChipSelect Enable"
+		(exclude_from_sim no)
+		(at 31.242 144.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71b76ff9-8759-4349-b12c-7376e121cc8a")
+	)
+	(text "Switch based CS Addr"
+		(exclude_from_sim no)
+		(at 67.056 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "793e89c7-9dcd-4d78-9793-5cdb7c25ff0c")
+	)
+	(text "ChipSelect Address C[2:0]"
+		(exclude_from_sim no)
+		(at 30.226 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ef9e13d-4ecf-4d37-b2d6-786e456483ac")
 	)
 	(wire
 		(pts
@@ -1088,36 +1130,6 @@
 			(type default)
 		)
 		(uuid "f755ed26-5b9e-4f44-ac6c-1a86c620b7d6")
-	)
-	(text "ChipSelect Enable"
-		(exclude_from_sim no)
-		(at 31.242 144.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "71b76ff9-8759-4349-b12c-7376e121cc8a")
-	)
-	(text "Switch based CS Addr"
-		(exclude_from_sim no)
-		(at 67.056 118.364 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "793e89c7-9dcd-4d78-9793-5cdb7c25ff0c")
-	)
-	(text "ChipSelect Address C[2:0]"
-		(exclude_from_sim no)
-		(at 30.226 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ef9e13d-4ecf-4d37-b2d6-786e456483ac")
 	)
 	(global_label "C1"
 		(shape input)
